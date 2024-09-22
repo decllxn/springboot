@@ -1,0 +1,33 @@
+WHAT IS DEPENDENCY INJECTION IN SPRING?
+
+- Dependency Injection is a fundamental concept in Spring framework
+- It is a design pattern that allows components to be loosely coupled
+- It is part of the Inversion of Control (IoC) principle,
+where the control over how objects are created and managed is transferred from the application code to,
+the Spring container.
+- Dependency Injection allows an object to be injected into another object,
+without having to create the object itself.
+- It is a way to manage the dependencies between objects
+- With DI, Spring automatically wires beans(objects) to satisfy dependencies at runtime
+
+TYPES OF DEPENDENCY INJECTIONS
+
+1. Constructor Injection - Dependencies are provided through the constructor of the class
+2. Setter Injection - Dependencies are provided through setter methods
+3. Field Injection - Dependencies are provided through fields, using annotations like,
+@Value, @Autowired, etc.
+
+HOW DOES DEPENDENCY INJECTION WORK IN SPRING?
+
+- In Spring, the IoC container(like ApplicationContext) manages the lifecycle of beans,
+and their dependencies
+- You define beans in configuration files (XML or annotations)
+- The IoC container creates and manages the beans
+- Spring resolves dependencies by injecting,
+the required bean into the dependent bean
+
+DEPENDENCY INJECTION Example;
+- The example demonstrates dependency injection in Spring,
+the following components;
+- A Car that requires an engine
+- Spring will inject Engine object into a Car object through DI
