@@ -1,0 +1,25 @@
+SPRING ANNOTATIONS
+- This is a core part of the spring Framework
+- It allows developers to write cleaner and more readable code by,
+reducing the need for XML configuration
+- It is used to configure beans and their dependencies
+
+@Components:
+  - Indicates that an annotated class is a "component"
+  - It is a special type of bean
+  - Marks a Java Class as a Spring-managed component
+  - Spring will automatically detect it during component scanning
+
+
+@Service:
+  - Indicates that an annotated class is a "Service
+  - Serves as a Specialization of @Component,
+    allowing for implementation classes to be autodetected through classpath scanning
+  - Also denotes that the class contains business logic
+
+@AutoWired
+  - Used for automatic dependecy injection
+  - Spring automatically resolves and injects the required beans into,
+  the annotated fiels, constructor or setter method
+  - It is used to inject dependencies into a class
+  - It can be used on fields, constructors, or setter methods

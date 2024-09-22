@@ -1,0 +1,23 @@
+CORE FEATURES:
+
+- IOC - Inversion on Control Container
+- IOC is a design pattern that allows for the decoupling of components and the management of their
+dependencies. It is a key feature of the Spring Framework.
+- AOP - Aspect Oriented Programming
+- DAF - Data Access Framework
+- MVC - Spring MVC Framework
+      - Enables developers to create customized MVC components
+
+SPRING BEAN:
+- A Spring Bean is an object that is managed by the Spring IoC container.
+- An object that is managed by the Spring Framework in Java application
+- Spring beans can be configured by XML
+
+Object Lifecycle:
+- Spring provides a way to manage the lifecycle of beans, 
+including creation, initialization, and destruction.
+- The lifecycle of a bean is managed by the Spring IoC container.
+- The lifecycle of a bean includes the following stages:
+- Creation: The bean is created by the Spring IoC container.
+- Initialization: The bean is initialized by the Spring IoC container.
+- Destruction: The bean is destroyed by the Spring IoC container.
