@@ -6,4 +6,9 @@ public class AnnotationConfigApplicationContext {
         //TODO Auto-generated constructor stub
     }
 
+    public Car getBean(Class<Car> class1) {
+        // TODO Auto-generated method stub
+        throw new UnsupportedOperationException("Unimplemented method 'getBean'");
+    }
+
 }

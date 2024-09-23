@@ -6,7 +6,7 @@ package Dependency_Injection;
 
 public class MainApp {
     public static void main(String[] args) {
-        ApplicationContext context = new AnnotationConfigApplicationContext(AppConfig.class);
+        AnnotationConfigApplicationContext context = new AnnotationConfigApplicationContext(AppConfig.class);
         Car myCar = context.getBean(Car.class);
         myCar.drive();
     }

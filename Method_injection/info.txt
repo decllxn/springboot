@@ -17,3 +17,11 @@ TYPES OF METHOD INJECTION
 - Used when the class needs to call a method that 
 ,returns a new instance of a prototype-scoped bean
 - Spring provides @Lookup annotation to define such methods
+
+2. ARBITRARY METHOD Injection
+- Dependencies are passed as arguments to any method
+- Not just a constructor or a setters
+- This type of injection is used when you don't need to store the,
+dependency as a field but use it directly in the method
+- Unlike lookup method injection, arbitrary method injection doesn't rely,
+on @Lookup but instead injects the dependency through method arguments
