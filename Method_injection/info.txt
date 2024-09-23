@@ -1,0 +1,8 @@
+METHOD INJECTION IN SPRING
+
+- Method Injection is a technique where dependencies are injected into,
+Individual methods(rather than through constructors or setters)
+- This approach allows for dependencies to be provided only when they are needed
+in the execution of specific methods
+- The injected dependency is ususally not stored as a class member but is used
+for that particular method's execution
