@@ -4,5 +4,16 @@ METHOD INJECTION IN SPRING
 Individual methods(rather than through constructors or setters)
 - This approach allows for dependencies to be provided only when they are needed
 in the execution of specific methods
-- The injected dependency is ususally not stored as a class member but is used
+- The injected dependency is usually not stored as a class member but is used
 for that particular method's execution
+
+TYPES OF METHOD INJECTION
+
+- Lookup Method Injection
+- Arbitrary Method Injection
+
+1. LOOKUP METHOD INJECTION
+- Special type of method injection
+- Used when the class needs to call a method that 
+,returns a new instance of a prototype-scoped bean
+- Spring provides @Lookup annotation to define such methods
